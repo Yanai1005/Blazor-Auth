@@ -9,7 +9,7 @@
     },
     {
       "route": "/",
-      "allowedRoles": ["administrator"]
+      "allowedRoles": ["authenticated"]
     },
     {
       "route": "/admin*",
