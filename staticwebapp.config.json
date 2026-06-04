@@ -9,6 +9,10 @@
       "allowedRoles": ["administrator"]
     },
     {
+      "route": "/api/*",
+      "allowedRoles": ["administrator"]
+    },
+    {
       "route": "/logout",
       "redirect": "/.auth/logout"
     }
